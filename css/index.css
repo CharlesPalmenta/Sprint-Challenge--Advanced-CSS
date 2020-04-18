@@ -1,3 +1,19 @@
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+.width {
+  max-width: 800px;
+  width: 100%;
+}
+.centerFlex {
+  display: flex;
+  justify-content: center;
+}
+.phoneWidth {
+  max-width: 500px;
+  width: 100%;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -159,6 +175,33 @@ p {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+}
+.topHeader {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.topHeader h1 {
+  font-size: 3.6rem;
+  max-width: 800px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.topHeader nav {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+}
+.topHeader nav a {
+  text-decoration: none;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 1.4rem;
 }
 footer {
   color: #22283B;
