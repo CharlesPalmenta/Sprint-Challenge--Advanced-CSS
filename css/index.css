@@ -148,11 +148,34 @@ table {
 html {
   font-size: 62.5%;
 }
+
+.element {
+  width: 100%;
+  animation: pulse 20s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: white;  
+  }
+  25% {
+    background-color: whitesmoke;
+  }
+  50% {
+    background-color: cornflowerblue;
+  }
+  100% {
+    background-color: dodgerblue;
+  }
+}
 html,
 body {
   font-family: 'Ubuntu', sans-serif;
   color: #5E6164;
+  height: 100%;
 }
+
+
 h1,
 h2,
 h3,
