@@ -195,6 +195,12 @@ p {
   justify-content: center;
   padding: 15px 0;
 }
+@media only screen and (max-width: 500px) {
+  .topHeader nav {
+    max-width: 500px;
+    width: 100%;
+  }
+}
 .topHeader nav a {
   text-decoration: none;
   width: 10%;
@@ -202,6 +208,11 @@ p {
   justify-content: center;
   font-weight: 500;
   font-size: 1.4rem;
+}
+@media only screen and (max-width: 500px) {
+  .topHeader nav a {
+    width: 15%;
+  }
 }
 footer {
   color: #22283B;
@@ -213,6 +224,12 @@ footer {
   justify-content: center;
   align-items: center;
 }
+@media only screen and (max-width: 500px) {
+  .home .intro .main-header {
+    max-width: 500px;
+    width: 100%;
+  }
+}
 .home .intro h2 {
   padding: 15px;
 }
@@ -223,6 +240,21 @@ footer {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+}
+@media only screen and (max-width: 500px) {
+  .home .space-images .blast {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .home .space-images .sky {
+    display: none;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .home .space-images .launch {
+    display: none;
+  }
 }
 .home .space-images img {
   width: 28%;
@@ -246,8 +278,22 @@ footer {
   display: flex;
   justify-content: center;
 }
+@media only screen and (max-width: 500px) {
+  .home .walk {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+}
 .home .walk .walk-text {
   width: 50%;
+}
+@media only screen and (max-width: 500px) {
+  .home .walk .walk-text {
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 .home .walk .walk-text h3 {
   margin-bottom: 10px;
@@ -259,8 +305,22 @@ footer {
   width: 46%;
   margin-left: 4%;
 }
-.home .walk .walk-img img {
+@media only screen and (max-width: 500px) {
+  .home .walk .walk-img {
+    max-width: 500px;
+    width: 100%;
+    padding: 15px 0;
+    margin: 0 auto;
+  }
+}
+.home .walk img {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+@media only screen and (max-width: 500px) {
+  .home .walk {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }

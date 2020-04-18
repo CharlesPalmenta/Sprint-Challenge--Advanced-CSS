@@ -14,12 +14,20 @@
         .centerFlex();
         padding: 15px 0;
 
+        @media @phone {
+            .phoneWidth();
+        }
+
         a {
             text-decoration: none;
             width: 10%;
             .centerFlex();
             font-weight: 500;
             font-size: 1.4rem;
+
+            @media @phone {
+                width: 15%;
+            }
         }
         
     }
