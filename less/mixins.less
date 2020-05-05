@@ -1,1 +1,34 @@
 // Mixins Here
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.width {
+    max-width: 800px;
+    width: 100%;
+}
+
+.centerFlex {
+    display: flex;
+    justify-content: center;
+}
+
+.phoneWidth {
+    max-width: 500px;
+    width: 100%;
+}
+
+.button(@background, @color) {
+    background: @background;
+    color: @color;
+    display: inline-block;
+    font-size: 1.4rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+    &:hover {
+        background: @porcelain;
+        color: @btn-bg-color;
+    }
+}
